@@ -6,20 +6,20 @@
 }
 
 /* Element Selectors */
-body {
+body {  /* Sets the overall background color */
     background-color: #d9dcd6;
 }
 
-a {
+a { /* Sets the color and decoration for links */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /* Sets the default font size for <p> */
     font-size: 16px;
 }
 
-header {
+header {    /* Sets style and sizing for the header */
     width: 100%;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,17 +27,17 @@ header {
     color: #ffffff;
 }
 
-mark {
+mark {  /* Sets color for the seo <mark> in header */
     background-color: #2a607c;
     color: #d9dcd6;
 }
 
-header h1 {
+header h1 { /* Sets the display type and size of <h1> within header */
     display: inline-block;
     font-size: 48px;
 }
 
-header ul {
+header ul { /* Sets the style and sizing for the <ul> within header */
     padding-top: 15px;
     margin-right: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,17 +48,17 @@ header ul {
     right: 0;
 }
 
-header li {
+header li { /* Sets the spacing for the <li> within header */
     padding-right: 30px;
 }
 
-main {
+main {  /* Sets the size and area of main */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-main section {
+main section {  /* Sets style and sizing of the sections within main */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -67,18 +67,18 @@ main section {
     color: #ffffff;
 }
 
-main section img {
+main section img {  /* Sets the size and alignment for the images within main */
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-main section h2 {
+main section h2 {   /* Sets the size and alignment for the headers within main */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-figure {
+figure {    /* Sets the style for the large background image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -87,7 +87,7 @@ figure {
     background-position: center;
 }
 
-aside {
+aside { /* Sets the style and sizing within the sidebar */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -95,40 +95,40 @@ aside {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
     background-color: #2589bd;
     text-align: center;
 }
 
-article {
-    color: #ffffff;
+article { /* Aligns text of the articles in the sidebar */
     margin: 0px 0px 32px;
     text-align: left;
 }
 
-article h3 {
+article h3 {    /* Aligns headers of the articles in the sidebar */
     margin-bottom: 10px;
     text-align: center;
 }
 
-article img {
+article img {   /* Aligns images of the articles in the sidebar */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-footer {
+footer {    /* Sets the style and alignment for the footer */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+footer h2 { /* Changes the font size of the header in the footer */
     font-size: 20px;
 }
 
 /* Class Selectors */
-.float-right { /* Needed to float middle image to the right */
+.float-right { /* Needed to float middle image in main to the right */
     float: right;
     margin-right: 0px;
 }
