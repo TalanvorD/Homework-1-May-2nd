@@ -1,5 +1,5 @@
 /* Universal Selectors */
-* {
+* { /* Sets the total area available for the viewport */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -39,17 +39,16 @@ header h1 { /* Sets the display type and size of <h1> within header */
 
 header ul { /* Sets the style and sizing for the <ul> within header */
     padding-top: 15px;
-    margin-right: 10px;
+    margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
     display: inline-flex;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 
 header li { /* Sets the spacing for the <li> within header */
-    padding-right: 30px;
+    padding-left: 28px;
 }
 
 main {  /* Sets the size and area of main */
@@ -133,4 +132,4 @@ footer h2 { /* Changes the font size of the header in the footer */
     margin-right: 0px;
 }
 
-/* ID Selectors */
+/* ID Selectors - None used here*/
