@@ -1,4 +1,4 @@
-# Homework Module 1 Challenge
+# Horiseaon Code Refactor - Challenge 1
 
 ## Description
 
