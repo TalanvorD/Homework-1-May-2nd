@@ -1,4 +1,4 @@
-# Horiseaon Code Refactor - Challenge 1
+# Horiseon Code Refactor - Challenge 1
 
 ## Description
 
