@@ -11,7 +11,8 @@ Modified the title to be more relevant\
 Removed all div tags and renamed into semantic containers i.e. header, main, figure, section, aside, article, footer\
 Removed nearly all classes from objects\
 Collapsed css into fewer instructions, mostly moved into element selectors instead of class selectors\
-Added comments to style.css
+Added comments to style.css\
+Re-added the id tags for each section so the hrefs in the header work properly now
 
 ## Installation
 
@@ -23,7 +24,7 @@ The main usage of this is to keep the existing structure (index.html) but modify
 
 
 ## Link
-https://talanvord.github.io/Homework-1-May-2nd/
+https://talanvord.github.io/Horiseon-Code-Refactor-Challenge-1/
 
 ## Screenshot
 ![Homework Screenshot](/Homework-1-May-2nd.jpg?raw=true "Homework Screenshot")
